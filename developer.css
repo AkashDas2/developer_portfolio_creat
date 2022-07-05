@@ -1,0 +1,59 @@
+h1 {
+    font-size: 50px;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+
+.color {
+    color: orange;
+}
+
+section {
+    display: flex;
+    margin-top: 100px;
+}
+
+.text {
+    width: 50%;
+    padding: 5%;
+}
+
+.imag {
+    width: 10px;
+
+}
+
+.HIRE_ME_BUTTON {
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: 0;
+}
+
+.dream {
+    display: flex;
+}
+
+.imag2 {
+    width: 50%;
+}
+
+.text2 {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.resuem {
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
