@@ -11,9 +11,11 @@ body {
     color: orange;
 }
 
-section {
+.flexible_container {
     display: flex;
     margin-top: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 }
 
 .text {
@@ -56,4 +58,22 @@ section {
     background-color: aqua;
     border-radius: 15px;
     padding: 10px 20px;
+}
+
+.fd {
+    display: flex;
+}
+
+.banner {
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.text3 {
+    box-shadow: 10px 20px 30px;
+    width: 50%;
+    margin: 5%;
+    padding: 10px;
+    border-left: orange solid 10px;
+    border-radius: 10px;
 }
